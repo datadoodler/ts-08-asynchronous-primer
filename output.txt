@@ -1,0 +1,28 @@
+
+myName kent 10 ms
+
+myName1 david 12 ms
+
+myName2 josh 12 ms
+inside getMyName3 function (dataReturned) {
+    myName3 = dataReturned;
+    console.log('inside calling getMyName3', dataReturned, Date.now()-startTime + ' ms')
+} 12 ms
+inside calling getMyName3 james 13 ms
+
+myName3 james 13 ms
+
+myName4 undefined 13 ms
+
+myName5 undefined 14 ms
+
+myName6 undefined 14 ms
+
+
+Waiting 6 seconds to write results again 14 ms
+in getMyName4 timeout 1014 ms
+in getMyName5 timeout 1014 ms
+in getMyName6 timeout 1014 ms
+myName4 (after waiting) is undefined 6017 ms
+myName5 (after waiting) is Ammon 6017 ms
+myName6 (after waiting) is Natalie 6017 ms
